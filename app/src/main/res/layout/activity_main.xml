@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/num1_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/input_num1" />
+
+    <EditText
+        android:id="@+id/num1_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="12"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/text_view_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/input_operation" />
+
+    <EditText
+        android:id="@+id/edit_text_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="12"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/num2_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/input_num2" />
+
+    <EditText
+        android:id="@+id/num2_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="12"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/calculate_result_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/calculate_result"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="@string/show_result" />
+
+</LinearLayout>
